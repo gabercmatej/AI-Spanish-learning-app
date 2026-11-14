@@ -1,4 +1,4 @@
-# Spanish learning app
+# AI Spanish Learning App
 
 ### ▶ [Try it in your browser — unolingo-spanish-learning-app.vercel.app](https://unolingo-spanish-learning-app.vercel.app)
 
@@ -10,7 +10,7 @@ browser.
 A Spanish-learning app built for one learner, teaching **Peninsular Spanish (es-ES)**.
 
 Duolingo is fun but repetitive, and better at teaching isolated words than Spanish.
-A textbook teaches better but is boring enough to abandon. Unolingo is an attempt at the
+A textbook teaches better but is boring enough to abandon. This app is an attempt at the
 overlap: engaging enough to open daily, built around how people actually acquire a language.
 
 Expo + React Native + TypeScript. Runs on iOS, Android and web. Offline, no account, no server.
@@ -125,6 +125,19 @@ forms highlighted, culture notes, XP that reflects effort and cannot be farmed, 
 and analytics that answer questions a learner would actually ask.
 
 ---
+
+## AI features (coming soon)
+
+The course engine above is the foundation: a learner model that knows, word by word and rule by rule, what you have mastered and what is shaky. The next layer puts a language model on top of it, always grounded in that learner model rather than replacing it.
+
+| Feature | What it will do |
+|---|---|
+| **Conversation partner** | Free-form Spanish chat at your CEFR level that sticks to vocabulary and grammar you have already met, and gently stretches one step beyond. |
+| **Tutor-style grading** | Accepts any correct free-text answer, not just the authored alternatives, and explains *why* a wrong answer is wrong in one sentence. |
+| **Targeted practice generation** | New sentences and drills built from your weakest concepts, checked against the same rules the course uses before you ever see them. |
+| **Pronunciation feedback** | Speak an answer and get feedback on the words that need work. |
+
+Design rules for the AI layer: the learner model stays the source of truth for progress; every generated exercise is validated before it is shown; the API key lives behind a server function, never in the app; and the course keeps working fully offline without it.
 
 ## How it feels
 
