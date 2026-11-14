@@ -1,4 +1,4 @@
-# Unolingo
+# Spanish learning app
 
 ### ▶ [Try it in your browser — unolingo-spanish-learning-app.vercel.app](https://unolingo-spanish-learning-app.vercel.app)
 
