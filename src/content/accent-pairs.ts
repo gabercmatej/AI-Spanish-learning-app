@@ -7,7 +7,7 @@ import { verbs } from '@/content/verbs';
  * Which accents carry meaning, derived rather than listed.
  *
  * `deaccent` folds every accent before comparing, which is right for a phone
- * keyboard and wrong for `hablo` against `habló`. `CLAUDE.md` recorded that as
+ * keyboard and wrong for `hablo` against `habló`. The project notes recorded that as
  * unsolvable without knowing which words are verbs. It is solvable without
  * knowing anything of the sort: the question is not "is this a verb?" but "does
  * this string, stripped of accents, name more than one real Spanish word?" —
